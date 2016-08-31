@@ -10,15 +10,13 @@
 
 public class ArrayStack {
 
-  // note: variable declarations
   private int capacity; // note: max length of array
   private int top = 0; // note: initialize a default value of top
   private String[] storage; // note: array is of string values
   
-  // note: constructor = initialize an object instance of the class
   public ArrayStack(int size) {
-    // todo: pass the value of size to capacity
-    storage = new String[/*__________*/]; // todo: update the array capacity
+    capacity = size;
+    storage = new String[capacity];
   }
 
   // note: will display the array
